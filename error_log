@@ -1,0 +1,12 @@
+[14-Sep-2019 16:06:14 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 30
+[14-Sep-2019 16:06:14 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 30
+[14-Sep-2019 16:06:14 UTC] PHP Warning:  include(): Failed opening 'includes/header.html' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/funda127/public_html/index.php on line 30
+[14-Sep-2019 16:06:14 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 198
+[14-Sep-2019 16:06:14 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 198
+[14-Sep-2019 16:06:14 UTC] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/funda127/public_html/index.php on line 198
+[14-Sep-2019 16:09:06 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 30
+[14-Sep-2019 16:09:06 UTC] PHP Warning:  include(includes/header.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 30
+[14-Sep-2019 16:09:06 UTC] PHP Warning:  include(): Failed opening 'includes/header.html' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/funda127/public_html/index.php on line 30
+[14-Sep-2019 16:09:06 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 198
+[14-Sep-2019 16:09:06 UTC] PHP Warning:  include(includes/footer.html): failed to open stream: No such file or directory in /home/funda127/public_html/index.php on line 198
+[14-Sep-2019 16:09:06 UTC] PHP Warning:  include(): Failed opening 'includes/footer.html' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/funda127/public_html/index.php on line 198

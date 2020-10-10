@@ -1,0 +1,157 @@
+/*--- GENERAL ---*/
+
+@import url('fuentes.css');
+
+body{
+	padding-top: 90px;
+}
+
+.contenido{
+	padding: 40px;
+	background-color: #FFFFFF;
+	z-index: 100;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'roboto-slab';
+	font-weight: normal;
+	/*text-shadow:  -2px 3px 2px rgba(150, 150, 150, 0.68);*/
+}
+
+p{
+	text-indent: justify;
+}
+
+html, body {
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
+main .container{
+	background-color: #FFFFFF;
+	padding: 0px 0px;
+}
+
+.text-small{
+	font-size: 14px;
+}
+
+.publicacion-img{
+	width: 100%;
+	max-width: 520px;
+}
+
+.navbar-brand{
+	padding: 0 !important;
+}
+
+.bg-azul-marino{
+	background-color: #1B2668;
+}
+
+/*--- FOOTER ---*/
+
+.redes-footer{
+	width: 50px;
+}
+
+/*--- MAIN ---*/
+
+.fb-page{
+	width: 100%;
+}
+
+/*.card{
+	margin-top: 20px;
+}*/
+
+.redes{
+	width: 90px;
+}
+
+.empresa{
+	width: 200px;
+	margin-top: 20px;
+}
+
+.carousel, .carousel-item{
+	/*max-height: 500px;*/
+}
+
+
+/*main .row,*/ main p{
+	margin-top: 20px;
+}
+
+.icono-nosotros{
+	font-size: 60px !important;
+}
+
+.mision{
+	color: #FA5C5C;
+}
+
+.vision{
+	color: #84DD65;
+}
+
+.compromiso{
+	color: #F1F354;
+}
+
+.bg-info{
+	padding: 10px;
+}
+
+.mapa{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+}
+
+.contacto-icon{
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+.contact-form{
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.tarjeta{
+	height: 300px;
+}
+
+.mar-top{ /* Para todo lo que requiera margin top 20*/
+	margin-top: 20px;
+}
+
+/*--- EFECTOS ---*/
+
+.desplazamiento-hover{
+	transition-duration: 0.5s;
+}
+
+.desplazamiento-hover:hover{
+	transition-duration: 0.5s;
+	transform: translate(0,-10px);
+}
+
+.escalar{
+	transition-duration: 0.5s;
+}
+
+.escalar:hover{
+	transform: scale(1.1,1.1);
+}
+
+/*--- DONACIÓN ---*/
+
+.donacion{
+	background-image: url(../img/tarjeta1.jpeg);
+	background-size: cover;
+}
