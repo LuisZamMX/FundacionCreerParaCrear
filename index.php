@@ -32,9 +32,8 @@
   <meta name="description" content="La “Fundación Creer para Crear” es una asociación civil sin fines de lucro, con el firme propósito de brindar una vivienda digna a los grupos vulnerables y regiones de escasos recursos en México." />
 
 </head>
-<!--onload="mostrarAlerta()"-->
 
-<body>
+<body onload="mostrarAlerta2()">
 
   <header>
 

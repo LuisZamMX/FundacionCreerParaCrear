@@ -29,6 +29,16 @@ function mostrarAlerta(){
 	});
 }
 
+function mostrarAlerta2(){
+	Swal.fire({
+		imageUrl: 'img/sorteo.jpeg',
+		imageWidth: 600,
+		imageAlt: 'Custom image',
+		showCloseButton: true,
+		showConfirmButton: false,
+	  })
+}
+
 function validar_correo(){
 
 	var nombre	= $('#correo-nombre').val();
