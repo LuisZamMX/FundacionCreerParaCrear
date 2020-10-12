@@ -44,13 +44,85 @@
 	<!-- Contenido principal -->
 	<main role="main" class="flex-shrink-0">
 
-		<div class="container no-scroll">
+		<div class="container-fluid no-scroll">
 
-        <h1 class="h1 text-center mb-5">Donaciones (PDF)</h1>
+			<div class="container mb-5">
 
-            <iframe class="w-100" src="mostrarArchivos.php?Archivo=donativo.pdf"  height="900px" style="border: none;"></iframe>
+				<!-- Logo -->
+				<div class="d-flex flex-row justify-content-center">
+					<div class="col-sm-12 col-md-3">
+						<img class="img-fluid escalar" src="img/logo_fundacion.png" alt="Logotipo de la Fundación Creer para Crear">
+					</div>
+				</div>
 
-		</div>
+				<div class="px-lg-5">
+					<h3 class="text-center h3-responsive">Fundación Creer Para Crear, A.C.</h3>
+					<h4 class="text-center h4-responsive">Su donativo lo puede realizar por:</h4>
+					<!-- Cheque -->
+					<h4 class="h4-responsive mt-5">Cheque:</h4>
+					<ul>
+						<li>
+							<p>Elaborar el cheque a nombre de <strong>FUNDACIÓN CREER PARA CREAR, A.C.</strong><br>(Nosotros podemos enviar por él)</p>
+						</li>
+					</ul>
+					<!-- Cheque -->
+
+					<!-- Depósito -->
+					<h4 class="h4-responsive mt-5">Depósito bancario:</h4>
+					<ul>
+						<li>
+							<p>Nombre de la cuenta: <strong>FUNDACION CREER PARA CREAR AC</strong></p>
+						</li>
+						<li>
+							<p>Banco: <strong>Bancomer</strong></p>
+						</li>
+						<li>
+							<p>Número de cuenta: <strong>0114067495</strong></p>
+						</li>
+						<li>
+							<p>CLABE: <strong>012180001140674957</strong></p>
+						</li>
+					</ul>
+
+					<h5 class="h5-responsive mt-5 mb-3">Enviar ficha de depósito al siguiente correo:</h5>
+					<a href="mailto:presidenciafcc@fundacioncreerparacrear.org"><strong>presidenciafcc@fundacioncreerparacrear.org</strong></a>
+					<p>Así como los datos para expedir el recibo deducible de impuestos:</p>
+					<ul>
+						<li>
+							<p>Nombre y/o razón social</p>
+						</li>
+						<li>
+							<p>Registro Federal de Contribuyentes</p>
+						</li>
+						<li>
+							<p>Dirección fiscal (Calle, número exterior e interior, colonia, delegación, ciudad, municipio, estado, código postal)</p>
+						</li>
+						<li>
+							<p>Correo electrónico</p>
+						</li>
+						<li>
+							<p>Teléfono para contacto</p>
+						</li>
+					</ul>
+					<!-- Depósito -->
+
+					<!-- Cheque -->
+					<h4 class="h4-responsive mt-5">Mayores informes</h4>
+					<ul>
+						<li>
+							<p>Teléfono: <a href="tel:5577352317"> 55 7735 2317</a></p>
+						</li>
+						<li>
+							<p>Correo electrónico:</p>
+							<a href="mailto:presidenciafcc@fundacioncreerparacrear.org"><strong>presidenciafcc@fundacioncreerparacrear.org</strong></a>
+						</li>
+					</ul>
+					<!-- Mayores informes -->
+
+				</div>
+
+
+			</div>
 
 	</main>
 

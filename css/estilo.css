@@ -54,7 +54,7 @@ html, body {
     box-shadow: none;
 }
 
-ul li a{
+.nav-item > a{
     font-family: josefin-regular;
     font-size: 20px;
     font-weight: 500;
