@@ -49,7 +49,7 @@
         <h2 class="text-center">Eventos</h2>
 
         <!-- Collapse -->
-        <div class="accordion mar-top" id="accordionExample">
+        <div class="accordion my-5" id="accordionExample">
 
           <!-- Primera sección -->
           <div class="card">

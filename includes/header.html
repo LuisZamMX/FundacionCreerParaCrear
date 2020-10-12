@@ -51,46 +51,58 @@
 <!- Termina navbar -->
 
 <nav class="navbar navbar-expand-lg navbar-dark oscuro fixed-top scrolling-navbar">
-  <a class="navbar-brand" href="#">
-    <img class="brand-scroll" src="img/logo_fundacion.png" alt="">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars rounded mb-0"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav d.flex flex-column flex-lg-row justify-content-lg-around">
-      <li id='inicio' class="nav-i nav-item">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img class="brand-scroll" src="img/logo_fundacion.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars rounded mb-0"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d.flex flex-column flex-lg-row justify-content-around w-100">
+        <li id='inicio' class="nav-i nav-item">
           <a class="nav-link animsition-link" href="index.php"><i
-                  class="fas fa-lg d-inline d-lg-none fa-home mr-3"></i>Inicio</a>
-      </li>
+              class="fas fa-lg d-inline d-lg-none fa-home mr-3"></i>Inicio</a>
+        </li>
 
-      <li id="nosotros" class="nav-i nav-item">
+        <li id="nosotros" class="nav-i nav-item">
           <a class="nav-link animsition-link" href="nosotros.php"><i
-                  class="fas fa-lg d-inline d-lg-none fa-user mr-3"></i>Nosotros</a>
-      </li>
+              class="fas fa-lg d-inline d-lg-none fa-user mr-3"></i>Nosotros</a>
+        </li>
 
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blog
+        <li id="nosotros" class="nav-i nav-item">
+          <a class="nav-link animsition-link" href="planDeAccion.php"><i
+              class="fas fa-lg d-inline d-lg-none fa-user mr-3"></i>Plan de acción</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Blog
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="publicaciones.php">Finanzas en el hogar</a>
-              <!--<a class="dropdown-item" href="publicaciones.php">Educación en el hogar</a>
-          <a class="dropdown-item" href="publicaciones.php">Problemas en el hogar</a> -->
+            <a class="dropdown-item" href="publicaciones.php">Finanzas en el hogar</a>
+            <!--<a class="dropdown-item" href="publicaciones.php">Educación en el hogar</a>
+            <a class="dropdown-item" href="publicaciones.php">Problemas en el hogar</a> -->
           </div>
-      </li>
+        </li>
 
-      <li id='eventos' class="nav-i nav-item">
+        <li id='eventos' class="nav-i nav-item">
           <a class="nav-link animsition-link" href="eventos.php"><i
-                  class="fas fa-lg d-inline d-lg-none fa-th-list mr-3"></i>Eventos</a>
-      </li>
+              class="fas fa-lg d-inline d-lg-none fa-th-list mr-3"></i>Eventos</a>
+        </li>
 
-      <li id='contacto' class="nav-i nav-item">
+        <li id='contacto' class="nav-i nav-item">
           <a class="nav-link animsition-link" href="./contacto.php"><i
-                  class="fas fa-lg d-inline d-lg-none fa-envelope mr-3"></i>Contacto</a>
-      </li>
-  </ul>
+              class="fas fa-lg d-inline d-lg-none fa-envelope mr-3"></i>Contacto</a>
+        </li>
+
+        <li id='donativo' class="nav-i nav-item">
+          <a class="nav-link animsition-link" href="donaciones.php"><i
+              class="fas fa-lg d-inline d-lg-none fa-envelope mr-3"></i>Donaciones</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>

@@ -272,13 +272,6 @@ ul li a{
 /*** PANTALLA GRANDE ***/
 @media only screen and (min-width: 992px) {
 
-    .navbar-collapse ul{
-        width: 50%;
-        margin: auto;
-    }
-
-    .service{
-        padding-bottom: 30px !important;
-    }
+	
 
 }
