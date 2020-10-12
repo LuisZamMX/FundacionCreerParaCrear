@@ -1,15 +1,13 @@
-/*--- GENERAL ---*/
-
 @import url('fuentes.css');
 
-body{
-	padding-top: 90px;
+/* noscroll */
+.no-scroll{
+    padding-top: 100px;
 }
 
-.contenido{
-	padding: 40px;
-	background-color: #FFFFFF;
-	z-index: 100;
+/*--- GENERAL ---*/
+.azulito{
+	color: #4f91cd;
 }
 
 h1, h2, h3, h4, h5{
@@ -24,12 +22,6 @@ p{
 
 html, body {
   height: 100%;
-  background-color: #F2F2F2;
-}
-
-main .container{
-	background-color: #FFFFFF;
-	padding: 0px 0px;
 }
 
 .text-small{
@@ -41,19 +33,77 @@ main .container{
 	max-width: 520px;
 }
 
-.navbar-brand{
-	padding: 0 !important;
-}
+
 
 .bg-azul-marino{
 	background-color: #1B2668;
 }
+
+
+
+/*** HEADER ***/
+.navbar-brand img{
+    margin-left: 20px;
+}
+
+.navbar-brand > img{
+    height: 40px;
+}
+
+.oscuro{
+    box-shadow: none;
+}
+
+ul li a{
+    font-family: josefin-regular;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.top-nav-collapse{
+    background-color: rgba(255, 255, 255, 1);
+    height: 60px;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,.5);
+}
+
+.top-nav-collapse .nav-item a{
+    color: black !important; 
+}
+
+.top-nav-collapse .fas{
+    color: black !important
+}
+
+
 
 /*--- FOOTER ---*/
 
 .redes-footer{
 	width: 50px;
 }
+
+/*** INICIO ***/
+
+.carousel, .carousel-item{
+    max-height: 600px;
+}
+
+.carousel-caption{
+
+    font-size: 40px;
+}
+
+.caption-bebe p{
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 30px !important;
+}
+
+.font-weigth-semibold{
+    font-weight: 400;
+}
+
 
 /*--- MAIN ---*/
 
@@ -70,7 +120,8 @@ main .container{
 }
 
 .empresa{
-	width: 200px;
+	width: 50%;
+	max-width: 200px;
 	margin-top: 20px;
 }
 
@@ -99,9 +150,6 @@ main .container{
 	color: #F1F354;
 }
 
-.bg-info{
-	padding: 10px;
-}
 
 .mapa{
 	width: 100%;
@@ -126,9 +174,6 @@ main .container{
 	height: 300px;
 }
 
-.mar-top{ /* Para todo lo que requiera margin top 20*/
-	margin-top: 20px;
-}
 
 /*--- EFECTOS ---*/
 
@@ -149,9 +194,91 @@ main .container{
 	transform: scale(1.1,1.1);
 }
 
+.nav-item::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: red;
+    transition: width .3s;
+}
+
+.nav-item:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.brand-scroll{
+	height: 100px !important;
+	transition-duration: 0.7s;
+}
+
+.top-nav-collapse .navbar-brand img{
+	height: 40px !important;
+	transition-duration: 0.7s;	
+}
+
 /*--- DONACIÓN ---*/
 
 .donacion{
 	background-image: url(../img/tarjeta1.jpeg);
 	background-size: cover;
+}
+
+/*MEDIA QUERIES*/
+
+/*** PANTALLA CHICA ***/
+@media only screen and (max-width: 992px) {
+
+    /*
+    Arregla el problema del fondo transparente del botón de hamburguesa
+    */
+    .navbar-brand img{
+        height: 30px;
+    }
+
+    #navbarNav{
+        background-color: rgba(0, 0, 0, 0.95);
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 90px;
+	}
+	
+
+    .noscroll{
+        background-color: rgba(255, 255, 255, 0.95) !important;
+    }
+
+    #navbarNav ul li{
+        margin: 10px 30px;
+    }
+
+    #navbarNav ul li a{
+        text-align: center;
+    }
+
+    .top-nav-collapse #navbarNav{
+		background-color: rgba(255, 255, 255, 0.95);
+		top: 60px;
+    }
+
+    .portada-logo{
+        width: 250px ;
+    }
+
+}
+
+/*** PANTALLA GRANDE ***/
+@media only screen and (min-width: 992px) {
+
+    .navbar-collapse ul{
+        width: 50%;
+        margin: auto;
+    }
+
+    .service{
+        padding-bottom: 30px !important;
+    }
+
 }

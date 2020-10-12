@@ -22,6 +22,21 @@
   src:  url('../fonts/RobotoSlab-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'josefin-light';
+      src: url('../fonts/JosefinSans-Light.ttf'); 
+}
+
+@font-face {
+  font-family: 'josefin-regular';
+      src: url('../fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'josefin-bold';
+      src: url('../fonts/JosefinSans-SemiBold.ttf');
+}
+
 /*
  ___________________________
 |							|

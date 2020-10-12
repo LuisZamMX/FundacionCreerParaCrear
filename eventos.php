@@ -1,12 +1,25 @@
 <!doctype html>
 <html lang="en" class="h-100">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href=  "css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- GLider.js -->
+  <link rel="stylesheet" href="css/glider.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <!-- Sweet Alert 2 -->
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
 
   <!-- Mi estilo -->
   <link rel="stylesheet" href="css/estilo.css">
@@ -14,22 +27,23 @@
 
   <!-- SEO -->
   <title>Fundación creer para crear - Eventos</title>
-  <meta name="description" content="Galería de fotos de los eventos que organiza Fundación Creer para Crear"/>
+  <meta name="description" content="Galería de fotos de los eventos que organiza Fundación Creer para Crear" />
 
 </head>
+
 <body class="d-flex flex-column h-100">
 
   <header>
 
-    <?php 
-    include ('includes/header.html');
+    <?php
+    include('includes/header-noscroll.html');
     ?>
 
   </header>
-  
+
   <!-- Contenido -->
   <main role="main" class="flex-shrink-0">
-    <div class="container">
+    <div class="container no-scroll">
 
       <div class="contenido">
         <h2 class="text-center">Eventos</h2>
@@ -87,93 +101,97 @@
               <div class="card-body">
                 <div class="row">
 
-                 <!-- Primera imagen -->
-                 <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro1.jpeg" alt="">
-                </div>
+                  <!-- Primera imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro1.jpeg" alt="">
+                  </div>
 
-                <!-- Segunda imagen -->
-                <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro2.jpeg" alt="Equipo de Fundación Creer para Crear en evento de Teatro en familia">
-                </div>
+                  <!-- Segunda imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro2.jpeg" alt="Equipo de Fundación Creer para Crear en evento de Teatro en familia">
+                  </div>
 
-                <!-- Tercera imagen -->
-                <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro3.jpeg" alt='Beneficiarios en evento de Teatro en Familia'>
-                </div>
+                  <!-- Tercera imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro3.jpeg" alt='Beneficiarios en evento de Teatro en Familia'>
+                  </div>
 
-                <!-- Cuarta imagen -->
-                <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro4.jpeg" alt='Obra de teatro "El Libro de la Selva"'>
-                </div>
+                  <!-- Cuarta imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/teatro4.jpeg" alt='Obra de teatro "El Libro de la Selva"'>
+                  </div>
 
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Tercera sección-->
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                <h4 class="text-decoration-none text-dark">Visita Parque Tezomoc</h4>
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              <div class="row">
+          <!-- Tercera sección-->
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4 class="text-decoration-none text-dark">Visita Parque Tezomoc</h4>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <div class="row">
 
-                <!-- Primera imagen -->
-                <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/tarjeta1.jpeg" alt="Beneficiarios en Visita al Parque Tezomoc">
+                  <!-- Primera imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/tarjeta1.jpeg" alt="Beneficiarios en Visita al Parque Tezomoc">
+                  </div>
+
+                  <!-- Segunda imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/parque2.jpeg" alt="Niño corriendo alegre en Visita a Parque Tezomoc">
+                  </div>
+
+                  <!-- Tercera imagen -->
+                  <div class="col-12 col-md-3">
+                    <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/parque3.jpeg" alt="Actividad realizada en Visita a Parque Tezomoc">
+                  </div>
+
                 </div>
-
-                <!-- Segunda imagen -->
-                <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/parque2.jpeg" alt="Niño corriendo alegre en Visita a Parque Tezomoc">
-                </div>
-
-                <!-- Tercera imagen -->
-                <div class="col-12 col-md-3">
-                  <img class="img-fluid escalar rounded mx-auto d-block shadow-lg mar-top" src="img/parque3.jpeg" alt="Actividad realizada en Visita a Parque Tezomoc">
-                </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="seccion">
+
+      </div>
+
     </div>
+  </main>
 
-    <div class="seccion">
-
-    </div>
-
-  </div>
-</main>
-
-<?php
+  <?php
   include('includes/footer.html');
-?>
+  ?>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147948653-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147948653-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-147948653-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147948653-1');
+  </script>
 
 
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/estilo.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/estilo.js"></script>
 </body>
+
 </html>

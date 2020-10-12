@@ -6,11 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href=  "css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- GLider.js -->
+	<link rel="stylesheet" href="css/glider.min.css">
+	<!-- Material Design Bootstrap -->
+	<link rel="stylesheet" href="css/mdb.min.css">
 
-  <!-- Mi estilo -->
-  <link rel="stylesheet" href="css/estilo.css">
-  <link rel="shortcut icon" href="img/logo_fundacion.ico">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+	<!-- Sweet Alert 2 -->
+	<link rel="stylesheet" href="css/sweetalert2.min.css">
+
+	<!-- Mi estilo -->
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="shortcut icon" href="img/logo_fundacion.ico">
 
   <!-- SEO -->
   <title>Fundación creer para crear - Finanzas en el Hogar</title>
@@ -22,7 +34,7 @@
   <header>
 
     <?php 
-    include ('includes/header.html');
+    include ('includes/header-noscroll.html');
     ?>
 
   </header>
@@ -30,7 +42,7 @@
   <!-- Contenido -->
   <main role="main" class="flex-shrink-0">
 
-    <div class="container">
+    <div class="container no-scroll">
 
 
       <div class="contenido">
